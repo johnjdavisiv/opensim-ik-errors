@@ -17,7 +17,7 @@ while f_line < 7
 end
 fclose(fid);
 
-%Read data
+%Read data - replace readmatrix() with dlmread() if you have a MATLAB version lower than R2019a  
 trc_data = readmatrix(file_path, 'FileType', 'text', ...
     'NumheaderLines', 6, 'delimiter', '\t');
 
