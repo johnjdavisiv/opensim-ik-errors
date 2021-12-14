@@ -22,6 +22,8 @@ I've also included a plotting utility called `plot_marker_errors.m` that I use a
 
 Additionally, each marker's IK weight gets printed next to it, which makes it easy to see which markers you should up-weight or down-weight if you not happy with results!  
 
-The color scheme in the plotting function is still tuned to my marker set, not the marker label names in the demo data presented in this repo. So you will not necessarily get the colors shown below. But it's still pretty useful. 
+The color scheme in the plotting function is still tuned to my marker set, not the marker label names in the demo data presented in this repo. So you will not necessarily get the colors shown below. But it's still pretty useful.  
+
+A demo is below. The bar goes out to the mean, the dot is at the 99th percentile, and the end of the line is at the maximum error.
 
 ![alt text](demo_plot.png)
